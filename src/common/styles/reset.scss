@@ -1,0 +1,198 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video,
+ input {
+   margin: 0;
+   padding: 0;
+  //  border: 0;
+   font-size: 100%;
+   font-weight: normal;
+ }
+
+ /* HTML5 display-role reset for older browsers */
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ menu,
+ nav,
+ section {
+   display: block;
+ }
+
+ body {
+   line-height: 1;
+ }
+
+ blockquote,
+ q {
+   quotes: none;
+ }
+
+ blockquote:before,
+ blockquote:after,
+ q:before,
+ q:after {
+   content: none;
+ }
+
+ table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+
+ /* custom */
+ a {
+   color: #7e8c8d;
+   text-decoration: none;
+   -webkit-backface-visibility: hidden;
+ }
+
+ li {
+   list-style: none;
+ }
+
+ body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+  -webkit-font-smoothing: antialiased;
+ }
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+// /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+// ::-webkit-scrollbar
+// {
+//   width: 0px;
+//   height: 15px;
+//   background-color: #F5F5F5;
+// }
+
+// /*定义滚动条轨道 内阴影+圆角*/
+// ::-webkit-scrollbar-track
+// {
+//   -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
+//   border-radius: 10px;
+//   background-color: #F5F5F5;
+// }
+
+// /*定义滑块 内阴影+圆角*/
+// ::-webkit-scrollbar-thumb
+// {
+//   border-radius: 10px;
+//   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+//   background-color: #8FBC8F;
+// }
+
+/* 清除input的默认样式 */
+input[type="button"], input[type="submit"], input[type="search"], input[type="reset"], input[type="text"] {
+  -webkit-appearance: none;
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  outline:0;
+}
+
+// 修改input 获得光标时  border 样式
+// input[type="text"]:focus{
+//   // border:1px solid #ff7496;
+//   border-color: #FE8C00;
+// }
+
+textarea { -webkit-appearance: none;}
+
+html,body,#app{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  // overflow: hidden;
+}
+

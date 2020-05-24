@@ -1,0 +1,53 @@
+.clear:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clear{
+  zoom:1;
+}
+
+.back_img{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.w{
+  margin: 0 auto;
+}
+//定位上下左右居中
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//定位左右居中
+.ct {
+  display: flex;
+  justify-content: center;
+}
+//定位上下居中
+.cl {
+  display: flex;
+  align-items: center;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.jd-container {
+  width: 100%;
+  height: 100%;
+}
