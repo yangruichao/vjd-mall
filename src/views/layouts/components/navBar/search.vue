@@ -3,7 +3,9 @@
   <div class='searchBox'>
     <div class="search-bg">洗衣液</div>
     <input type="text" class="search-text" />
-    <button class="search-btn">搜索</button>
+    <button class="search-btn">
+      <i class="icon-search"></i>
+    </button>
   </div>
 </template>
 

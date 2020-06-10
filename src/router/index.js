@@ -19,14 +19,14 @@ Vue.use(VueRouter)
         }
       ]
     },
-    // {
-    //   path: '/new/login',
-    //   component: () => import('client/login')
-    // },
-    // {
-    //   path: '/reg/register',
-    //   component: () => import('client/register')
-    // },
+    {
+      path: '/new/login',
+      component: () => import('@/views/login')
+    },
+    {
+      path: '/reg/register',
+      component: () => import('@/views/register')
+    },
 ]
 
 const router = new VueRouter({

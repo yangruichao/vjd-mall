@@ -1,7 +1,10 @@
 <!--  -->
 <template>
   <div class="dropdown">
-    <span>1</span>
+    <span class="shoppingBox">
+      <i class="icon-shoppingcard" style="margin-right: 15px"></i>
+      <span class="count">0</span>
+    </span>
     购物车
   </div>
 </template>
@@ -32,5 +35,22 @@ export default {
   border: 1px solid #ccc;
   color: #e2231a;
   margin-top: 25px;
+  .shoppingBox {
+    position: relative;
+  }
+  .count {
+    position: absolute;
+    left: 12px;
+    right: auto;
+    display: inline-block;
+    padding: 1px 3px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #e1251b;
+    border-radius: 7px;
+    min-width: 12px;
+    text-align: center;
+  }
 }
 </style>

@@ -36,7 +36,11 @@
               <label>密码</label>
               <input type="text" class="password">
             </div>
-            <p style="text-align: right;margin-bottom: 20px">忘记密码</p>
+            <p class="sasf">
+              <span class="register">注册?</span>
+              <span class="forgetPWD">忘记密码?</span>
+
+            </p>
             <div class="login-btn">
               登&nbsp;录
             </div>
@@ -119,6 +123,7 @@ export default {
 <style scoped lang='scss'>
 @import '@/common/styles/mixins.scss';
 @import '@/common/styles/var.scss';
+@import '@/common/styles/base';
 .login-container {
   width: 100%;
   height: 100%;
@@ -135,7 +140,7 @@ export default {
           width: 160px;
           height: 80px;
           display: inline-block;
-          background: url('../../../assets/jdLogo.jpg') no-repeat;
+          background: url('../../assets/jdLogo.jpg') no-repeat;
           background-size: 100% 100%;
         }
         .welcome-reg {
@@ -214,6 +219,25 @@ export default {
               font-family: '\5b8b\4f53';
             }
           }
+          .sasf {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .register {
+              color: $--border-color-primary;
+              cursor: pointer;
+              &:hover {
+                color: $--color-hover-primary;
+              }
+            }
+            .forgetPWD {
+              cursor: pointer;
+              &:hover {
+                color: $--color-hover-primary;
+              }
+            }
+          }
+
           .login-btn {
             border: 1px solid #cb2a2d;
             margin: 0 auto;
